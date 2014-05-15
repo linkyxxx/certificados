@@ -4,6 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="es" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=8"> 
     <META http-equiv="Page-Enter" CONTENT="RevealTrans(Duration=4,Transition=21)">
@@ -24,9 +25,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
-	    <?php echo Yii::app()->bootstrap->register(); ?>
-
+	<?php echo Yii::app()->bootstrap->register(); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
 </head>
 
 <body>
