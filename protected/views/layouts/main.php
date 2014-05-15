@@ -33,11 +33,13 @@
 <body>
 
 <div class="container" id="page">
+<header>
+	<figure id="logo1">
+		<img src="./images/footer.jpg">
+		<div id="nombre"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+	</figure>
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
+</header>
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(

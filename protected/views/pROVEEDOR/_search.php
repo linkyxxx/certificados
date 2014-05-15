@@ -26,23 +26,8 @@
 		<?php echo $form->textField($model,'ARTICULO_ID',array('size'=>25,'maxlength'=>25)); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'CANTIDAD'); ?>
-		<?php echo $form->textField($model,'CANTIDAD'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'NOMBRE_ARTICULO_ID'); ?>
-		<?php echo $form->textField($model,'NOMBRE_ARTICULO_ID',array('size'=>25,'maxlength'=>25)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'TIMESTAMP'); ?>
-		<?php echo $form->textField($model,'TIMESTAMP'); ?>
-	</div>
-
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
