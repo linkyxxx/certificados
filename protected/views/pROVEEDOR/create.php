@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Proveedors'=>array('index'),
-	'Create',
+	'Crear Proveedor',
 );
 
 $this->menu=array(
-	array('label'=>'List PROVEEDOR', 'url'=>array('index')),
-	array('label'=>'Manage PROVEEDOR', 'url'=>array('admin')),
+	array('label'=>'Listar Proveedores', 'url'=>array('index')),
+	array('label'=>'Administar Proveedores', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create PROVEEDOR</h1>
+<h1>Crear Proveedor</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

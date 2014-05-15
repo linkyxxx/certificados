@@ -13,6 +13,7 @@
 
 	<p class="note">Campos con <span class="required">*</span> son requerdos.</p>
 
+<fieldset>
 	<?php echo $form->errorSummary($model); ?>
 
 
@@ -63,7 +64,7 @@
 		<?php echo $form->textField($model,'ARTICULOcol1',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'ARTICULOcol1'); ?>
 	</div>
-
+</fieldset>
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(
 			'buttonType'=>'submit',
