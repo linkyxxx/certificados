@@ -72,3 +72,19 @@ Stack trace:
 REQUEST_URI=/certificados/index.php/site/login
 HTTP_REFERER=http://localhost/certificados/index.php
 ---
+2014/05/15 01:59:36 [error] [exception.CException] exception 'CException' with message 'SiteController no ha podido encontrar la vista "resetpass" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('resetpass', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/controllers/SiteController.php(130): CController->render('resetpass', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionResetPass()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('resetpass')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/resetpass')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/certificados/index.php?r=site/resetpass
+HTTP_REFERER=http://localhost/certificados/index.php?r=site/login
+---

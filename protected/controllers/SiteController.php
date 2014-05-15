@@ -106,4 +106,28 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+public function actionResetPass(){
+		
+		$mensajeError = '';
+		$mensajeOk = '';
+		if(isset($_POST['correo'])){
+			$correo = $_POST['correo'];
+			$existe = Usuario::model()->countByAttributes(array('email'=>$correo));
+			if($existe > 0){
+				$mensajeError = '';
+				$mensajeOk = '<div class="alert alert-success"><strong>Se ha enviado una nueva contraseña al siguiente e-mail: '.$correo.'</strong></div>';
+				$datos = Usuario::model()->findByAttributes(array('email'=>$correo));
+				$nuevaPass = Controller::generarpass();
+				Usuario::model()->updateByPk($datos->usuarioID,array('passU'=>sha1($nuevaPass)));
+				Controller::enviopass($correo,$datos,$nuevaPass);
+			} else {
+				if($correo == "") $mensajeError = 'Por favor ingrese e-mail del usuario.';
+				else $mensajeError = 'Error: el e-mail ingresado no se encuentra en nuestros registros.';
+			}
+		}
+
+		$this->render('resetpass',array('mensajeError'=>$mensajeError,'mensajeOk'=>$mensajeOk));
+
+	}
 }
