@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Articulos'=>array('index'),
-	'Create',
+	'Crear Articulo',
 );
 
 $this->menu=array(
-	array('label'=>'List ARTICULO', 'url'=>array('index')),
-	array('label'=>'Manage ARTICULO', 'url'=>array('admin')),
+	array('label'=>'Listar Articulos', 'url'=>array('index')),
+	array('label'=>'Administrar Articulos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create ARTICULO</h1>
+<h1>Crear Articulo</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
