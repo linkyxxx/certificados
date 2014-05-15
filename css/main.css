@@ -3,8 +3,58 @@ body
 	margin: 0;
 	padding: 0;
 	color: #555;
-	font: normal 10pt Arial,Helvetica,sans-serif;
+	font-size: normal 10pt Arial,Helvetica,sans-serif;
 	background: #EFEFEF;
+}
+footer
+{
+	background: black;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+	text-align: center;
+}
+footer p:first-child
+{	
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:after
+{
+	content: " -";
+}
+footer p:last-child:before
+{
+	content: "- ";
+}
+header
+{
+	
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header figure
+{
+	float: center;
+}
+header #logo1
+{
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+header #logo1 img
+{
+	/*-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);*/
+	/*-webkit-transition:.5s;*/
+	transition:.5s;
+	width: 999px;
 }
 
 #page
@@ -13,13 +63,6 @@ body
 	margin-bottom: 5px;
 	background: white;
 	border: 1px solid #C9E0ED;
-}
-
-#header
-{
-	margin: 0;
-	padding: 0;
-	border-top: 3px solid #C9E0ED;
 }
 
 #content
@@ -48,16 +91,11 @@ body
 	text-align: center;
 }
 
-#logo1
-{
-	padding: 10px 20px;
-	font-size: 200%;
-	text-align: center;	
-}
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+	background:black  repeat-x left top;
+	border: 1px solid black;
 	
 }
 
