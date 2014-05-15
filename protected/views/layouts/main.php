@@ -62,7 +62,7 @@
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> .<br/>
 		Todos los Derechos Reservados.<br/>
-		<?php echo Yii::powered(); ?>
+		<?//php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
 </div><!-- page -->
