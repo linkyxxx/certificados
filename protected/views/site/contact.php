@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Contact Us</h1>
+<h1>Contacto</h1>
 
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 
@@ -20,12 +20,12 @@ $this->breadcrumbs=array(
 <?php else: ?>
 
 <p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+Si tiene consultas comerciales u otras preguntas, por favor completa el siguiente formulario para contactar con nosotros. Gracias.
 </p>
 
 <div class="form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'contact-form',
 	'enableClientValidation'=>true,
 	'clientOptions'=>array(
@@ -33,7 +33,7 @@ If you have business inquiries or other questions, please fill out the following
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos con <span class="required">*</span> son requeridos</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -74,9 +74,8 @@ If you have business inquiries or other questions, please fill out the following
 	</div>
 	<?php endif; ?>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
+<?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'label'=>'Entrar', 'type'=>'primary')); ?>
+
 
 <?php $this->endWidget(); ?>
 
