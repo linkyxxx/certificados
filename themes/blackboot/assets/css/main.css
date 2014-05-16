@@ -1,0 +1,137 @@
+/* 
+    Document   : main
+    Created on : 31-05-2011, 03:57:16 PM
+    Author     : tom
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+.success
+{
+    padding: 10px;
+    background-color: #fdfcca;
+    border: 1px solid yellow;
+    width: 90%;
+}
+
+.grid-view
+{
+    width: 680px;
+    float: left;
+}
+
+.span-5 #sidebar
+{
+    background: none;
+    border: none;
+    padding: 15px;
+    width: 220px;
+}
+
+ul.yiiPager .first, ul.yiiPager .last
+{
+    display: inline !important;
+}
+
+.leftContent
+{
+    width: 680px;
+    float: left;
+}
+
+#preview
+{
+    text-align: left;
+}
+
+.linkFondo
+{
+    border: 2px solid #006cb7;
+    font-size: 30px;
+    padding: 30px;
+    margin: 30px;
+    float: left;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #b0e2ff;
+}

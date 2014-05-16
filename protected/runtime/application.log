@@ -174,3 +174,330 @@ Stack trace:
 REQUEST_URI=/certificados/index.php/site/images/footer.jpg
 HTTP_REFERER=http://localhost/certificados/index.php/site/login
 ---
+2014/05/17 00:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/
+---
+2014/05/17 01:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "..." solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/.../images...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/.../images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/footer.jpg"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/footer.j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/certificados/index.php/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:04:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:04:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/foo...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/site/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('proveedor/image...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/proveedor/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/proveedor/create
+---
+2014/05/17 01:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('proveedor/image...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/certificados/index.php/proveedor/images/footer.jpg
+HTTP_REFERER=http://localhost/certificados/index.php/proveedor/create
+---
+2014/05/17 01:32:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'certificados.tipoarticulo' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `tipoarticulo`.
+in /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php (13)
+2014/05/17 01:44:18 [error] [exception.CDbException] exception 'CDbException' with message 'Tabla "usuario" no contiene la columna "usuario".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/schema/CDbCommandBuilder.php:591
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/components/UserIdentity.php(49): CActiveRecord->findByAttributes(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/models/LoginForm.php(54): UserIdentity->authenticate()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/certificados/index.php/site/login
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:45:25 [error] [exception.CDbException] exception 'CDbException' with message 'Tabla "usuario" no contiene la columna "usuario".' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/schema/CDbCommandBuilder.php:591
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/components/UserIdentity.php(49): CActiveRecord->findByAttributes(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/models/LoginForm.php(54): UserIdentity->authenticate()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/certificados/protected/controllers/SiteController.php(94): CModel->validate()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/certificados/index.php/site/login
+HTTP_REFERER=http://localhost/certificados/index.php/site/login
+---
+2014/05/17 01:53:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'certificado.certificado' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `certificado`.
+in /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php (13)
+2014/05/17 01:53:43 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "certificado" definida en la clase active record "Certificado" no se ha podido encontrar en la base de datos.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Certificado))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/generators/crud/CrudCode.php(66): CActiveRecord::model('Certificado')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(CrudCode), NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(159): CModel->validate()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/certificados/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/certificados/index.php/gii/crud
+HTTP_REFERER=http://localhost/certificados/index.php/gii/crud
+---

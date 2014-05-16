@@ -26,9 +26,18 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 
 <p class="note"><i>Los campos con <span class="required">*</span> son obligatorios.</i></p>
  
-<?php echo $form->textFieldRow($model, 'username', array('class'=>'span3')); ?>
-<?php echo $form->passwordFieldRow($model, 'password', array('class'=>'span3')); ?>
-<?php echo $form->checkboxRow($model, 'rememberMe'); ?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->textField($model,'username'); ?>
+		<?php echo $form->error($model,'username'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->passwordField($model,'password'); ?>
+		<?php echo $form->error($model,'password'); ?>
+
+	</div>
 <p style="text-align: right;"><b><?php echo CHtml::link('¿Olvidó su contraseña? Recuperela aquí',array('site/resetpass')); ?></b></p>
 
 <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'label'=>'Entrar', 'type'=>'primary')); ?>

@@ -1,74 +1,29 @@
 <?php 
 
 class WebUser extends CWebUser {
-
 	private $_model;
 
-	
-	public function getUsuarioid(){
+	public function getUsuarionombre(){
 		if(Yii::app()->user->id){
-			$usuarioID = Usuario::model()->findByAttributes(array('usuario_ID'=>Yii::app()->user->id))->usuarioID;
-			return $usuarioID;
+			$id = Usuario::model()->findByPk(Yii::app()->user->id)->nombre_completo;
+			return $id;
 		}
 	}
 
-	public function getUsuarioDatos(){
-		$datos = Usuario::model()->findByPk(Yii::app()->user->usuarioid);
-		return $datos;
-	}
-
-	public function getUsuarioDependencia(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->dependencia;
-			return $user;
+	public function getUsuarionivel(){
+		if(Yii::app()->user->id){
+			$id = Usuario::model()->findByPk(Yii::app()->user->id)->perfil;
+			return $id;
 		}
 	}
 
-	public function getUsuarioEmail(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->email;
-			return $user;
+	public function getEsAdmin(){
+		if(Yii::app()->user->id){
+			$perfil = Usuario::model()->findByPk(Yii::app()->user->id)->perfil;
+			if($nivel == 1) return true;
+			else return false;
 		}
-	}
-	
-	public function getUsuarioNombre(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->nombre;
-			return $user;
-		}
-	}
-
-	public function getUsuarioApellidoPat(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->apellido_pat;
-			return $user;
-		}
-	}
-
-	public function getUsuarioApellidoMat(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->apellido_mat;
-			return $user;
-		}
-	}
-	/*
-	public function getUsuarioCargo(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->cargo;
-			return $user;
-		}
-	}
-
-	public function getUsuarioIniciales(){
-		if(!Yii::app()->user->isGuest) {
-			$user = Yii::app()->user->usuariodatos->iniciales;
-			return $user;
-		}
-	}
-	*/
-
-
-
+	}	
 }
 
 ?>

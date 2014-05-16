@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'SISTEMA DE EMISION DE CERTIFICADO',
-	'theme'=>'',
+	'theme'=>'blackboot',
     'language'=>'es',
     'sourceLanguage'=>'es',
     'charset'=>'UTF-8',
@@ -66,7 +66,7 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=certificados',
+			'connectionString' => 'mysql:host=localhost;dbname=certificado',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
