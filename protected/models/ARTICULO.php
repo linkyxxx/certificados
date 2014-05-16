@@ -16,9 +16,9 @@
  * @property string $ARTICULOcol1
  *
  * The followings are the available model relations:
+ * @property FACTURACION $fACTURACIONNUMEROFACTURA
  * @property PROVEEDOR $pROVEEDORPROVEEDOR
  * @property TIPOARTICULO $tIPOARTICULOTIPOARTICULO
- * @property FACTURACION $fACTURACIONNUMEROFACTURA
  */
 class ARTICULO extends CActiveRecord
 {
@@ -66,9 +66,9 @@ class ARTICULO extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'fACTURACIONNUMEROFACTURA' => array(self::BELONGS_TO, 'FACTURACION', 'FACTURACION_NUMERO_FACTURA_ID'),
 			'pROVEEDORPROVEEDOR' => array(self::BELONGS_TO, 'PROVEEDOR', 'PROVEEDOR_PROVEEDOR_ID'),
 			'tIPOARTICULOTIPOARTICULO' => array(self::BELONGS_TO, 'TIPOARTICULO', 'TIPO_ARTICULO_TIPO_ARTICULO_ID'),
-			'fACTURACIONNUMEROFACTURA' => array(self::BELONGS_TO, 'FACTURACION', 'FACTURACION_NUMERO_FACTURA_ID'),
 		);
 	}
 

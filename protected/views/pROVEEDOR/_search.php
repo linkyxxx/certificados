@@ -6,7 +6,7 @@
 
 <div class="wide form">
 
-<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
+<?php $form=$this->beginWidget('CActiveForm', array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
@@ -26,8 +26,23 @@
 		<?php echo $form->textField($model,'ARTICULO_ID',array('size'=>25,'maxlength'=>25)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'CANTIDAD'); ?>
+		<?php echo $form->textField($model,'CANTIDAD'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'NOMBRE_ARTICULO_ID'); ?>
+		<?php echo $form->textField($model,'NOMBRE_ARTICULO_ID',array('size'=>25,'maxlength'=>25)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'TIMESTAMP'); ?>
+		<?php echo $form->textField($model,'TIMESTAMP'); ?>
+	</div>
+
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Buscar'); ?>
+		<?php echo CHtml::submitButton('Search'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

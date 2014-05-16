@@ -3,13 +3,13 @@ body
 	margin: 0;
 	padding: 0;
 	color: #555;
-	font-size: normal 10pt Arial,Helvetica,sans-serif;
+	font-size: normal 15px Arial,Helvetica,sans-serif;
 	background: #EFEFEF;
 }
 footer
 {
-	background: black;
-	color: rgba(255,255,255,0.7);
+	background: red;
+	color: rgba(255,255,255,0.9);
 	padding: 1em;
 	text-align: center;
 }
@@ -81,7 +81,7 @@ header #logo1 img
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #696969;
+	border-top: 1px solid #E5322C;
 }
 
 #nombre
@@ -94,20 +94,29 @@ header #logo1 img
 
 #mainmenu
 {
-	background:black  repeat-x left top;
+	background:red  repeat-x left top;
 	border: 1px solid black;
+	list-style: none;
+	margin: 0;
+	padding: 0 6em 0 .5em;
 	
 }
 
 #mainmenu ul
 {
-	padding:6px 20px 5px 20px;
-	margin:0px;
+	/*padding:6px 20px 5px 20px;*/
+	color: red;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	-webkit-transition:.3s;
 }
 
 #mainmenu ul li
 {
-	display: inline;
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+
 }
 
 #mainmenu ul li a
@@ -122,8 +131,8 @@ header #logo1 img
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
+	color: white;
+	background-color:#E5322C;
 	text-decoration:none;
 }
 

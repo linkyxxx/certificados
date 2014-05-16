@@ -11,11 +11,15 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Campos con <span class="required">*</span> son requerdos.</p>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-<fieldset>
 	<?php echo $form->errorSummary($model); ?>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'ARTICULO_ID'); ?>
+		<?php echo $form->textField($model,'ARTICULO_ID',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'ARTICULO_ID'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'NOMBRE_ARTICULO_ID'); ?>
@@ -33,6 +37,12 @@
 		<?php echo $form->labelEx($model,'PROVEEDOR_ID'); ?>
 		<?php echo $form->textField($model,'PROVEEDOR_ID',array('size'=>25,'maxlength'=>25)); ?>
 		<?php echo $form->error($model,'PROVEEDOR_ID'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'TIMESTAMP'); ?>
+		<?php echo $form->textField($model,'TIMESTAMP'); ?>
+		<?php echo $form->error($model,'TIMESTAMP'); ?>
 	</div>
 
 	<div class="row">
@@ -64,16 +74,11 @@
 		<?php echo $form->textField($model,'ARTICULOcol1',array('size'=>45,'maxlength'=>45)); ?>
 		<?php echo $form->error($model,'ARTICULOcol1'); ?>
 	</div>
-</fieldset>
-	<div class="form-actions">
-		<?php $this->widget('bootstrap.widgets.TbButton', array(
-			'buttonType'=>'submit',
-			'type'=>'primary',
-			'label'=>$model->isNewRecord ? 'Agregar' : 'Guardar',
-			)); ?>
-		<button type="reset" class="btn">Limpiar</button>
-		<button onclick="window.history.go(-1)" class="btn" type="button">Cancelar</button>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
+
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
