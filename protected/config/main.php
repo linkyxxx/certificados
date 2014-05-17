@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'SISTEMA DE EMISION DE CERTIFICADO',
-	'theme'=>'blackboot',
+	'theme'=>'',
     'language'=>'es',
     'sourceLanguage'=>'es',
     'charset'=>'UTF-8',

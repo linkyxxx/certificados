@@ -53,7 +53,7 @@ class UserIdentity extends CUserIdentity
                     $this->errorCode=self::ERROR_PASSWORD_INVALID;
                else
                 {
-                    $this->_id=$user->usuario_ID;
+                    $this->_id=$user->id_usuario;
                     $this->username=$user->usuario;
                     $this->errorCode=self::ERROR_NONE;
                 }

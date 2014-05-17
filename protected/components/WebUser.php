@@ -5,7 +5,7 @@ class WebUser extends CWebUser {
 
 	public function getUsuarionombre(){
 		if(Yii::app()->user->id){
-			$id = Usuario::model()->findByPk(Yii::app()->user->id)->nombre_completo;
+			$id = Usuario::model()->findByPk(Yii::app()->user->id)->nombre;
 			return $id;
 		}
 	}
@@ -20,7 +20,8 @@ class WebUser extends CWebUser {
 	public function getEsAdmin(){
 		if(Yii::app()->user->id){
 			$perfil = Usuario::model()->findByPk(Yii::app()->user->id)->perfil;
-			if($nivel == 1) return true;
+			if($perfil == 1) return true;
+			elseif($perfil ==2) return true;
 			else return false;
 		}
 	}	

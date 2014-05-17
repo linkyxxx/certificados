@@ -38,7 +38,7 @@ Yii::app()->clientscript
 <div class="container" id="page">
 <header>
 	<figure id="logo1">
-		<img src="./images/footer.jpg">
+		
 		<div id="nombre"><?//php echo CHtml::encode(Yii::app()->name); ?></div>
 	</figure>
 	
@@ -57,7 +57,7 @@ Yii::app()->clientscript
                  array('label'=>'Menu Administrador', 'icon'=>'cog', 'url'=>'#', 'items'=> array(
                     array('label'=>' - Crear Usuario', 'url'=>array('usuario/create')),
                     array('label'=>' - Administrar Usuario', 'url'=>array('usuario/admin')),
-                ), 'visible'=>!Yii::app()->user->isGuest),
+                ), 'visible'=>Yii::app()->user->esAdmin && !Yii::app()->user->isGuest),
 
                 array('label'=>'Contacto', 'url'=>array('/site/contact'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
